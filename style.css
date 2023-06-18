@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #06020E;
+}
+.logo{
+    position: absolute;
+    left: 26px;
+    top: 12px;
+}
+header{
+    width: 100%;
+    height: 75px;
+    top: 0;
+    left: 0;
+    background: #100A24;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    align-items: center;
+    z-index: 999;
+}
+.Navi{
+    color: #FFFF00;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 39.75px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.Mirek{
+    color: aliceblue;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 92.9866px;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+}
+
+.okolice1{
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+
+#info{
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px 250px;
+}
+#smoki{
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 55px;
+    color: #686868;
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#terro{
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 55px;
+    color: #FFA800;
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+#okolice{
+    color: white;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid red;
+    margin-right: 5px;
+}
+
+#sitea{
+    color: red;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid red;
+    margin-left: 5px;
+}
+
+.smokena{
+    color: white;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 35px;
+    padding-right: 600px;
+}
+#uwaga{
+    color: red;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 23.879px;
+    text-align: center;
+}
+#uwaga2{
+    display: flex;
+    align-items: center;
+}
+#firstvid{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1375px;
+}
+#firstvidtxt{
+    width: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+
+}
+.JT1{
+    color: red;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 23.879px;
+    text-align: right;
+    margin-right: 10px;
+    
+}
+
+.JT{
+    color: red;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 23.879px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 300px;
+
+}
+.video{
+    border-radius: 70px;
+}
+.video2{
+    border-radius: 70px;
+    padding-left: 30px;
+}
+footer{
+    height: 150px;
+    background: #100A24;
+}
